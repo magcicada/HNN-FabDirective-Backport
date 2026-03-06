@@ -183,6 +183,7 @@ dependencies {
 
     implementation fg.deobf("curse.maven:hostile-neural-networks-552574:${hnn_version}")
     implementation fg.deobf("dev.shadowsoffire:Placebo:${minecraft_version}-${placebo_version}")
+    implementation fg.deobf("curse.maven:extra-hostile-neural-networks-1162278:7572320")
     // implementation fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}+${minecraft_version}")
     runtimeOnly fg.deobf("curse.maven:curios-309927:${curios_version}")
     runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}")
