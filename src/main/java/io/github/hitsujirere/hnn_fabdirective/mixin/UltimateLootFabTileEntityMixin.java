@@ -1,5 +1,6 @@
 package io.github.hitsujirere.hnn_fabdirective.mixin;
 
+import net.lmor.extrahnn.tile.UltimateLootFabTileEntity;
 import dev.shadowsoffire.hostilenetworks.data.DataModel;
 import dev.shadowsoffire.hostilenetworks.tile.LootFabTileEntity;
 import dev.shadowsoffire.placebo.recipe.VanillaPacketDispatcher;
@@ -11,8 +12,8 @@ import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 
-@Mixin(LootFabTileEntity.class)
-public abstract class LootFabTileEntityMixin implements ISelectionsAccessor {
+@Mixin(UltimateLootFabTileEntity.class)
+public abstract class UltimateLootFabTileEntityMixin implements ISelectionsAccessor {
 
     @Shadow(remap = false)
     @Final

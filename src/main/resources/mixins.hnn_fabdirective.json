@@ -6,7 +6,9 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "LootFabBlockMixin",
-    "LootFabTileEntityMixin"
+    "LootFabTileEntityMixin",
+    "UltimateLootFabBlockMixin",
+    "UltimateLootFabTileEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
